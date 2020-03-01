@@ -72,7 +72,7 @@
       </div>
     </header>
     <main>
-      <section class="page-section__hero">
+      <section class="page-section__hero-section">
         <div class="background-img">
           <div class="container">
             <h1 class="hero-title">
@@ -165,6 +165,10 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="
+                    ./images/category-1.png    330w,
+                    ./images/category-1@2x.png 660w
+                  "
                   src="./images/category-1.png"
                   alt="Products"
                   width="255"
@@ -224,6 +228,10 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="
+                    ./images/category-2.png    330w,
+                    ./images/category-2@2x.png 660w
+                  "
                   src="./images/category-2.png"
                   alt="Products"
                   width="255"
@@ -283,6 +291,10 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="
+                    ./images/category-3.png    330w,
+                    ./images/category-3@2x.png 660w
+                  "
                   src="./images/category-3.png"
                   alt="Products"
                   width="255"
@@ -342,6 +354,10 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="
+                    ./images/category-4.png    330w,
+                    ./images/category-4@2x.png 660w
+                  "
                   src="./images/category-4.png"
                   alt="Products"
                   width="255"
@@ -408,6 +424,7 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="./images/prod-1.png 340w, ./images/prod-1@2x.png 680w"
                   src="./images/prod-1.png"
                   alt="Products"
                   width="255"
@@ -467,6 +484,7 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="./images/prod-2.png 340w, ./images/prod-2@2x.png 340w"
                   src="./images/prod-2.png"
                   alt="Products"
                   width="255"
@@ -526,6 +544,7 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="./images/prod-3.png 340w, ./images/prod-3@2x.png 680w"
                   src="./images/prod-3.png"
                   alt="Products"
                   width="255"
@@ -585,6 +604,7 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="./images/prod-4.png 340w, ./images/prod-4@2x.png 680w"
                   src="./images/prod-4.png"
                   alt="Products"
                   width="255"
@@ -644,6 +664,7 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="./images/prod-5.png 340w, ./images/prod-5@2x.png 680w"
                   src="./images/prod-5.png"
                   alt="Products"
                   width="255"
@@ -703,6 +724,7 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="./images/prod-6.png 340w, ./images/prod-6@2x.png 680w"
                   src="./images/prod-6.png"
                   alt="Products"
                   width="255"
@@ -762,6 +784,7 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="./images/prod-7.png 340w, ./images/prod-7@2x.png 680w"
                   src="./images/prod-7.png"
                   alt="Products"
                   width="255"
@@ -821,6 +844,7 @@
             <li class="products-item">
               <div class="products-list__overlay">
                 <img
+                  srcset="./images/prod-8.png 340w, ./images/prod-8@2x.png 680w"
                   src="./images/prod-8.png"
                   alt="Products"
                   width="255"
@@ -886,6 +910,7 @@
           <ul class="news__list">
             <li class="news__item">
               <img
+                srcset="./images/news-1.png 350w, ./images/news-1@2x.png 700w"
                 src="./images/news-1.png"
                 alt="Hot news"
                 class="news__item--img"
@@ -904,6 +929,7 @@
             </li>
             <li class="news__item">
               <img
+                srcset="./images/news-2.png 350w, ./images/news-2@2x.png 700w"
                 src="./images/news-2.png"
                 alt="Hot news"
                 class="news__item--img"
@@ -922,6 +948,7 @@
             </li>
             <li class="news__item">
               <img
+                srcset="./images/news-3.png 350w, ./images/news-3@2x.png 700w"
                 src="./images/news-3.png"
                 alt="Hot news"
                 class="news__item--img"
@@ -955,10 +982,13 @@
                   required
                   class="registration-form__email--registration"
                 />
-                <button
-                  class="registration-form__email-button"
-                  type="submit"
-                ></button>
+                <button class="registration-form__email-button" type="submit">
+                  <svg class="registration-form__icon-button">
+                    <use
+                      href="./images/icons/symbol-defs.svg##icon-button"
+                    ></use>
+                  </svg>
+                </button>
               </form>
             </div>
           </div>

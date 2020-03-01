@@ -786,7 +786,6 @@ li {
 }
 
 .registration-form__email-button {
-  background-image: url(../images/icons/button-email.png);
   width: 90px;
   height: 60px;
   border: 2px solid #ffffff;
